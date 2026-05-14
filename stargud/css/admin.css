@@ -1,0 +1,8 @@
+@font-face {
+    font-family: ZingRust;
+    src: url(../fuente/ZingRust.otf);
+  }
+  
+  body{
+    font-family: ZingRust;
+  }

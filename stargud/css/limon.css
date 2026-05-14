@@ -1,0 +1,21 @@
+@media screen and (min-width: 780px) {
+    #fondoLimon {
+      background-image: url("../images/rayoverde.png");
+      background-repeat: no-repeat;
+      background-size: 93%;
+      background-position-y: 56%;
+      background-position-x: -746%;
+      height: 900px;
+    }
+  
+    #fondoLimon2 {
+      background-image: url("../images/letraLimon.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: right;
+      
+    }
+}
+
+@media screen and (max-width: 780px) {
+}

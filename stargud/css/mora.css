@@ -1,0 +1,57 @@
+@media screen and (min-width: 780px) {
+  #fondoMora {
+    background-image: url("../images/rayofondo.png");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-y: 110%;
+    background-position-x: 20%;
+    height: 900px;
+  }
+
+  #fondoMora2 {
+    background-image: url("../images/letraUva.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+
+  #infoMora td {
+    border-bottom: 1px solid rgb(71, 23, 125);
+    border-top: transparent;
+  }
+
+  .infoMora {
+    font-weight: 1000;
+    color: rgb(71, 23, 125);
+    text-transform: uppercase;
+  }
+
+  #infoMora {
+    font-weight: 1000;
+    color: rgb(71, 23, 125);
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 780px) {
+
+    
+      #infoMora td {
+        border-bottom: 1px solid rgb(71, 23, 125);
+        border-top: transparent;
+      }
+    
+      .infoMora {
+        font-weight: 1000;
+        color: rgb(71, 23, 125);
+        text-transform: uppercase;
+      }
+    
+      #infoMora {
+        font-weight: 1000;
+        color: rgb(71, 23, 125);
+        text-transform: uppercase;
+      }
+
+}

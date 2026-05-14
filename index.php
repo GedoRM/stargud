@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mora.css">
+    <link rel="stylesheet" href="css/limon.css">
+    <link rel="stylesheet" href="css/naranja.css">
+    <link rel="stylesheet" href="css/azul.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link href="images/rayo.png" rel="icon" type="image/ico" />
+    <title>Stargud</title>
+    <style>
+    #imgAzul:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #imgAzul {
+        overflow: hidden;
+    }
+
+    #imgMora:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #imgMora {
+        overflow: hidden;
+    }
+
+    #imgNaranja:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #imgNaranja {
+        overflow: hidden;
+    }
+
+    .bx-wrapper {
+        margin-bottom: 0px !important;
+    }
+
+    .bx-default-pager {
+        display: none;
+    }
+
+    @media screen and (min-width: 780px) {
+        #logoMovil {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 780px) {
+        #logoMovil {
+            display: block;
+
+        }
+
+        #logoWeb {
+            display: none;
+        }
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <?php include 'header/nav.php' ?>
+
+    <div class="share">
+        <a href="#" class="nav-link waves-effect waves-light  fab fa-whatsapp fa-2x" target=»_blank></a>
+    </div>
+
+    <section>
+        <div id="primeraSeccion" class="carousel slide" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+                <li data-target="#primeraSeccion" data-slide-to="0" class="active"></li>
+                <li data-target="#primeraSeccion" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class=" d-blockimg-fluid w-100" src="images/principal.jpg" alt="">
+                </div>
+                <div class="carousel-item pause">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe loop
+                            src="https://www.youtube.com/embed/hyVJ0LclPfw/?autoplay=1&mute=1&modestbranding=1&showinfo=1&iv_load_policy=3&rel=0&loop=1&controls=0&playlist=hyVJ0LclPfw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!--<li class="carousel-control-prev" href="#primeraSeccion" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </li>
+            <li class="carousel-control-next" href="#primeraSeccion" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </li>-->
+        </div>
+    </section>
+
+
+    <section id="noticias">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="text-center wow fadeIn">UN STARGUD BIEN<br> FRÍO
+                                PARA:</h3>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 col-md-6 text-right m-auto d-block">
+                            <img class="img-fluid wow fadeInUp" src="images/cono.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <p id="txtS1" class="txtR text-left wow fadeInLeft">RECUPERARTE DE<br> LAS NOCHES <br>
+                                LARGAS
+                                Y LOS<BR> DESVELOS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7" style="display:block; margin:auto">
+                            <hr style="border:1px dashed;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <p id="txtS1" class="txtL text-right wow fadeInRight">DAR EL 100 Y<BR> AUMENTAR TU<BR>
+                                RENDIMIENTO</p>
+                        </div>
+                        <div class="col-6 col-md-6 text-left m-auto d-block">
+                            <img class="img-fluid wow fadeInUp" src="images/pie.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7" style="display:block; margin:auto">
+                            <hr style="border:1px dashed;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 col-md-6 text-right m-auto d-block">
+                            <img class="img-fluid wow fadeInUp" src="images/energia.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <p id="txtS1" class="wow fadeInLeft">RENDIR EN EL<br> TRABAJO Y<br> MANTENERTE<BR>
+                                ACTIVO</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7" style="display:block; margin:auto">
+                            <hr style="border:1px dashed;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 col-md-6 ">
+                            <p id="txtS1" class="text-right wow fadeInRight">RECUPERARTE<BR> DEL CALOR Y<BR> RECOBRA
+                                TU<BR> ENERGIA</p>
+                        </div>
+                        <div class="col-6 col-md-6 text-left m-auto d-block">
+                            <img class="img-fluid wow fadeInUp" src="images/temperatura.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1">
+
+                </div>
+                <br>
+                <div class="col-md-6 wow fadeInUp">
+                    <p style="color:green; font-weight:600; font-size:20px">PARA TODA OCASIÓN</p>
+                    <p style="font-weight:600">..</p>
+                    <br>
+
+                    <div class="row mb-5">
+                        <div class="col-4 col-md-6">
+                            <a href="images/foto1.png" data-lightbox="galeria" data-title="#">
+                                <img id="foto" src="images/foto1.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-6">
+                            <a href="images/foto2.png" data-lightbox="galeria" data-title="#">
+                                <img id="foto" src="images/foto2.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-4 col-md-6">
+                            <a href="images/foto3.png" data-lightbox="galeria" data-title="#">
+                                <img id="foto" src="images/foto3.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+
+                        <div class="col-4 col-md-6">
+                            <a href="images/foto4.png" data-lightbox="galeria" data-title="#">
+                                <img id="foto" src="images/foto4.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <!-- <div class="col-4 col-md-4">
+                            <a href="images/foto5.png" data-lightbox="galeria" data-title="#">
+                                <img id="foto" src="images/foto5.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <a href="images/foto6.png" data-lightbox="galeria" data-title="#">
+                                <img id="foto" src="images/foto6.png" class="img-fluid" alt="">
+                            </a>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </section>
+    <section class="wow fadeInUp" id="beneficios">
+        <br><br><br><br><br>
+        <div class="container wow fadeInUp">
+
+            <h3 class="text-center font-weight-bold wow fadeIn" style="color:#00e099">BENEFICIOS</h3>
+            <br><br>
+
+            <div class="row" style="height:450px">
+                <div class="col-md-4 d-block m-auto">
+                    <div class="media">
+                        <p id="num" class="d-flex m-auto d-block">01</p>
+                        <div class="media-body ml-3">
+                            <p id="txtB" class="text-justify">
+                                Con formulación que potencia el sabor sin azúcares añadidos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-block m-auto">
+                    <div class="media">
+                        <p id="num" class="d-flex m-auto d-block">02</p>
+                        <div class="media-body ml-3">
+                            <p id="txtB" class="text-justify">
+                                Creado para una nueva generación de gente activa, que busca hidratación en
+                                diferentes
+                                momentos y actividades del día a día.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <diiv class="col-md-4"></diiv>
+
+                <div class="col-md-4 d-block m-auto">
+                    <div class="media">
+                        <p id="num" class="d-flex m-auto d-block">03</p>
+                        <div class="media-body ml-3">
+                            <p id="txtB" class="text-justify">
+                                Regula tu temperatura <br>corporal.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-block m-auto">
+                    <div class="media">
+                        <p id="num" class="d-flex m-auto d-block">04</p>
+                        <div class="media-body ml-3">
+                            <p id="txtB" class="text-justify">
+                                Grandes beneficios a un precio increíble.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4 d-block m-auto">
+                    <div class="media">
+                        <p id="num" class="d-flex m-auto d-block">05</p>
+                        <div id="txtB" class="media-body ml-3">
+                            Siempre disponible en tu tienda o app favorita.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 d-block m-auto">
+                </div>
+            </div>
+            <div id="endB" class="row">
+
+            </div>
+    </section>
+
+    <section>
+
+        <div id="saboresStargud" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active wow fadeInUp">
+                    <?php include 'productos/limon.php'; ?>
+                </div>
+                <div class="carousel-item">
+                    <?php include 'productos/mora.php'; ?>
+                </div>
+                <div class="carousel-item">
+                    <?php include 'productos/azul.php'; ?>
+                </div>
+                <div class="carousel-item">
+                    <?php include 'productos/naranja.php'; ?>
+                </div>
+            </div>
+            <li class="carousel-control-prev" href="#saboresStargud" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </li>
+            <li class="carousel-control-next" href="#saboresStargud" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </li>
+        </div>
+    </section>
+    <section id="tienda" style="height:900px">
+        <nav class="nav nav-tabs justify-content-center" style="background-color:rgb(39,36,96)">
+            <li class="nav-item bg-white" style="border-top:1px solid rgb(39,36,96);">
+                <p class="mr-3 ml-3 mt-4 wow fadeIn">TIENDA EN LÍNEA</p>
+            </li>
+        </nav>
+        <div class="container animated wow fadeInUp" id="sectienda">
+            <div class="row">
+                <div id="iconosTienda" class="col-12 col-md-4 mb-5">
+                    <img id="amazon" class="img-fluid d-block m-auto" src="images/amazon.png" alt="">
+                </div>
+                <div id="iconosTienda" class="col-12 col-md-4 mb-5">
+                    <img id="pronto" class="img-fluid d-block m-auto" src="images/pronto.png" alt="">
+                </div>
+                <div id="iconosTienda" class="col-12 col-md-4 mb-5">
+                    <img id="yending" class="img-fluid d-block m-auto" src="images/yending.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class=" img-fluid row m-0 vh-100 justify-content-center align-items-center">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div id="cardContacto" class="col-md-6 mb-5">
+                    <div class="card" id="cardForm">
+                        <h3 class="header text-white text-center">
+                            CONTÁCTANOS
+                        </h3>
+                        <div class="card-body ">
+
+                            <p class="card-text">
+                            <form id="formulario" method="POST" action="mail.php">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class=" mb-4">
+                                            <input id="nombre" name="nombre" class="form-control form-control-sm w-100"
+                                                type="text" placeholder="NOMBRE" required>
+                                        </div>
+                                        <div class=" mb-4">
+                                            <input id="email" name="email" class="form-control form-control-sm w-100"
+                                                type="email" placeholder="EMAIL" required>
+                                        </div>
+                                        <div class=" mb-4">
+                                            <input id="tel" name="telefono" class="form-control form-control-sm w-100"
+                                                type="text" placeholder="TÉLEFONO" maxlength="10" required>
+                                        </div>
+                                        <div class="mb-4">
+                                            <input id="ayuda" name="ayuda" class="form-control form-control-sm w-100"
+                                                type="text" placeholder="¿CÓMO PODEMOS AYUDARTE?" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class=" mb-4">
+                                            <textarea name="mensaje" class="md-textarea form-control w-100"
+                                                name="opinion" id="mensaje" rows="7"
+                                                placeholder="DÉJANOS TU MENSAJE"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-4 mb-2">
+                                    <button id="enviar" type="submit" class="btn"
+                                        style="background-color:rgb(22,219,155); color:white">ENVIAR
+                                        <i class="fa fa-send ml-2"></i>
+                                    </button>
+                                </div>
+                            </form>
+                            <div id="msj"></div>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="cardDirecciones" class="col-md-6">
+                    <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+                        <div id="cardDir" class="card">
+                            <div class="card-body ">
+
+                                <p class="card-text">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="header text-black text-center">
+                                            Campeche, Campeche
+                                        </h5>
+                                        <div class="media">
+                                            <p class="d-flex m-auto d-block"><i class="fas fa-map-marker-alt fa-3x"></i>
+                                            </p>
+                                            <div class="media-body ml-3">
+                                                <p id="dire" class="text-justify">
+                                                    <a href="https://goo.gl/maps/kMryLqWVkD5xnaLx9" style="color:black"
+                                                        target="_blank">
+                                                        Calle Zapateros 3B Parque Industrial Siglo XXI, C.P. 24065,
+                                                        Campeche,
+                                                        Campeche.
+                                                    </a>
+
+                                                </p>
+                                                <p id="dire" class="text-justify">
+                                                    <a href="https://goo.gl/maps/j4wksppR9rojgnC46" style="color:black"
+                                                        target="_blank">
+                                                        Calle Galeana #20 entre 12 y 14, Col. San Román, C.P. 24000,
+                                                        Campeche,
+                                                        Campeche.
+                                                    </a>
+
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <h5 class="header text-black text-center">
+                                            Merida, Yúcatan
+                                        </h5>
+                                        <div class="media">
+                                            <p class="d-flex m-auto d-block"><i class="fas fa-map-marker-alt fa-3x"></i>
+                                            </p>
+                                            <div class="media-body ml-3">
+                                                <p id="dire" class="text-justify">
+                                                    <a href="https://goo.gl/maps/LyHx3p1XA3Z4j6Bf7" style="color:black"
+                                                        target="_blank">
+                                                        Avenida Maquiladoras Tablaje Catastral 12975, Parque Industrias
+                                                        No
+                                                        Contaminantes, 97203 Mérida, Yucatán.
+                                                    </a>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="seccion5" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 mt-5 mb-5">
+                    <!-- SnapWidget -->
+                    <iframe src="https://snapwidget.com/embed/963840" class="snapwidget-widget" allowtransparency="true"
+                        frameborder="0" scrolling="no"
+                        style="border:none; overflow:hidden;  width:1200px; height:300px"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="seccion6" class="wow fadeInUp">
+        <div class="container">
+            <div class="text-center">
+                <img id="rayosec6" class="img-fluid" src="images/rayoseccion6.png" alt="">
+                <hr>
+                <div class="row">
+                    <div class="col-12 col-md-2"></div>
+                    <div id="infosec6" class="col-12 col-md-2">
+                        <p id="redes" class="font-weight-bold">SIGUE NUESTRAS<br> REDES</p>
+                    </div>
+                    <div id="infosec6" class="col-12 col-md-1">
+                        <a style="color:black" href="https://acortar.link/vMSjo8" target="_blank">
+                            <i class="fab fa-facebook-f fa-3x"></i>
+                        </a>
+
+                    </div>
+
+                    <div id="infosec6" class="col-12 col-md-1">
+                        <a href="https://acortar.link/OyKNLY" style="color:black" target="_blank">
+                            <i class="fab fa-instagram fa-3x"></i>
+                        </a>
+
+                    </div>
+                    <div id="infosec6" class="col-12 col-md-1">
+                        <a href="https://cutt.ly/ERWcE1F" style="color:black" target="_blank">
+                            <i class="fab fa-youtube fa-3x"></i>
+                        </a>
+                    </div>
+                    <div id="infosec6" class="col-12 col-md-2">
+                        <p>Elaborado por:<br> <strong>CASA RECA®</strong></p>
+                    </div>
+                    <div id="infosec6" class="col-12 col-md-2">
+                        <img id="sinAzucar" class="img-fluid" src="images/sinAzucar.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-2">
+
+                    </div>
+                </div>
+
+                <hr>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <div class="share">
+        <a href="https://api.whatsapp.com/send?phone=529818295556&text=Quiero información" class="fab fa-whatsapp fa-2x"
+            target=»_blank></a>
+    </div>
+
+    <?php include 'footer/footer.php' ?>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js">
+    </script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js">
+    </script>
+    <!--<script src="js/menu.js"></script>-->
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <script>
+    $(function() {
+        new WOW().init();
+    });
+    </script>
+
+    <script>
+    $(document).ready(function() {
+
+        $("#formulario").bind("submit", function() {
+            $.ajax({
+                type: $(this).attr("method"),
+                url: $(this).attr("action"),
+                data: $(this).serialize(),
+                success: function(data) {
+                    $("#msj").html(data);
+
+                    $("#nombre").val('');
+                    $("#email").val('');
+                    $("#tel").val('');
+                    $("#ayuda").val('');
+                    $("#mensaje").val('');
+                }
+            });;
+            return false;
+        });
+    });
+    </script>
+
+
+    <script>
+    $(document).ready(function() {
+        $('a[href^="#"]').click(function() {
+            var destino = $(this.hash);
+            if (destino.length == 0) {
+                destino = $('a[name="' + this.hash.substr(1) + '"]');
+            }
+            if (destino.length == 0) {
+                destino = $('html');
+            }
+            $('html, body').animate({
+                scrollTop: destino.offset().top
+            }, 500);
+            return false;
+        });
+    });
+    </script>
+</body>
+
+
+</html>

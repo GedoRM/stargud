@@ -1,0 +1,405 @@
+@font-face {
+  font-family: ZingRust;
+  src: url(../fuente/ZingRust.otf);
+}
+
+body{
+  font-family: ZingRust;
+}
+
+#noticias {
+  background-color: rgb(39, 36, 96);
+  color: white;
+}
+
+#informacion {
+  background-color: rgb(71, 23, 125);
+  color: white;
+}
+
+.share a {
+  padding: 12px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  transition: all 700ms ease;
+}
+
+.share a:hover {
+  background: white;
+  color: #4dc247;
+}
+
+.fa-whatsapp {
+  background: #4dc247;
+  border-radius: 100%;
+}
+
+#num {
+  font-size: 40px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(71, 23, 125);
+  font-weight: bold;
+}
+
+
+
+.bx-wrapper{
+  margin-bottom: 0px !important;
+}
+
+/* Pantalla grande */
+@media screen and (min-width: 780px) {
+
+  #foto {
+    filter: grayscale(100%);
+  }
+  
+  #foto:hover {
+    filter: grayscale(0);
+  }
+  
+  #noticias {
+    background-image: url("../images/rayofondo.png");
+    background-repeat: no-repeat;
+    background-position-x: 104%;
+    background-position-y: center;
+    background-size: 44%;
+  }
+
+  #txtS1 {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+
+  #noticias {
+    height: 990px;
+    padding-top: 100px;
+  }
+
+  #limonada {
+    height: 650px;
+  }
+
+  #tablaInfo {
+    line-height: 0px;
+    padding-bottom: 0.1rem;
+  }
+
+  #txtAlmacenamiento {
+    color: black;
+  }
+
+  #contacto {
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #cardForm {
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-color: rgb(39, 36, 96);
+    padding: 20px;
+    background-image: url("../images/fondosecc4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #seccion6 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #txtDir {
+    font-size: 15px;
+  }
+
+  #redes {
+    text-align: left;
+  }
+
+  #logos {
+    width: 30%;
+  }
+
+  #pronto {
+    width: 20%;
+  }
+
+  .m {
+    background-color: transparent;
+  }
+
+  .share {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 2%;
+    right: 1%;
+    z-index: 1000;
+  }
+
+  #beneficios {
+    background-image: url("../images/beneficios.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+
+  #endB {
+    height: 300px;
+  }
+
+  #txtB {
+    color: rgb(71, 23, 125);
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  #dire {
+    font-size: 1.2rem;
+  }
+
+  #sectienda{
+    margin-top: 130px;
+  }
+
+  
+}
+
+/* Pantala movil */
+@media screen and (max-width: 780px) {
+
+  #foto {
+    filter: grayscale(100%);
+  }
+  
+  #noticias {
+    padding-top: 50px;
+  }
+
+  #txtS1 {
+    font-size: 11px;
+    margin-top: 35px;
+  }
+
+  #limonada {
+    height: 400px;
+    display: block;
+    margin: auto;
+  }
+
+  #txtAlmacenamiento {
+    text-align: center;
+    color: black;
+  }
+
+  #contacto {
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: no-repeat;
+    height: auto !important;
+  }
+
+  #cardForm {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  #infosec6 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  #txtDir {
+    font-size: 13px;
+  }
+
+  #redes {
+    text-align: center;
+  }
+
+  #logos {
+    width: 30%;
+  }
+
+  #pronto{
+    width: 20%;
+  }
+
+  .m {
+    background-color: transparent;
+  }
+
+  .share {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 5%;
+    right: 2%;
+    z-index: 1000;
+  }
+
+  #endB {
+    height: 90px;
+  }
+
+  #txtB {
+    color: rgb(71, 23, 125);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  #cardContacto {
+    margin-top: 3rem !important;
+  }
+
+  #cardDirecciones {
+    margin-bottom: 3rem !important;
+    background-color:rgba(255,255,255,0.5);
+  }
+
+  #sinAzucar{
+    width: 30%;
+  }
+  #rayosec6{
+    width: 50%;
+  }
+
+}
+
+
+/*
+    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
+    code customized by Azmind.com
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Show 4th slide on md if col-md-4*/
+  .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%;  /*change this with javascript in the future*/
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Show 3rd slide on sm if col-sm-6*/
+  .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -50%;  /*change this with javascript in the future*/
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+}
+@media (min-width: 576px) {
+  .carousel-item {
+      margin-right: 0;
+  }
+  /* show 2 items */
+  .carousel-inner .active + .carousel-item {
+      display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+      transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+  }
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+  }
+  /* farthest right hidden item must be also positioned for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+  }
+}
+/* MD */
+@media (min-width: 768px) {
+  /* show 3rd of 3 item slide */
+  .carousel-inner .active + .carousel-item + .carousel-item {
+      display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+  }
+  /* left or forward direction */
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+  }
+  /* right or prev direction */
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+  }
+}
+/* LG */
+@media (min-width: 991px) {
+  /* show 4th item */
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+      display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+      transition: none;
+  }
+  /* Show 5th slide on lg if col-lg-3 */
+  .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -25%;  /*change this with javascript in the future*/
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+  /* left or forward direction */
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+  }
+  /* right or prev direction //t - previous slide direction last item animation fix */
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+  }
+}
+

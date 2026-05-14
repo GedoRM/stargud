@@ -1,0 +1,21 @@
+@media screen and (min-width: 780px) {
+  #fondoAzul2 {
+    background-image: url("../images/letraAzul.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+  }
+  #fondoAzul {
+    background-image: url("../images/rayoverde.png");
+    background-repeat: no-repeat;
+    background-size: 93%;
+    background-position-y: 56%;
+    background-position-x: -850%;
+    height: 900px;  
+  }
+
+
+}
+
+@media screen and (max-width: 780px) {
+}

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: ZingRust;
+  src: url(../fuente/ZingRust.otf);
+}
+
+body {
+  font-family: ZingRust;
+  height: 100%;
+}
+
+#informacion {
+  background-color: rgb(71, 23, 125);
+  color: white;
+  min-height: 100vh;
+}
+
+#fondo2{
+    min-height: 100vh;
+}
+
+#azul {
+  display: block;
+  margin-top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.txt {
+  display: block;
+  margin-top: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (min-width: 780px) {
+  #informacion {
+    background-image: url(../images/rayoverde.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: left;
+    background-position-y: center;
+  }
+
+  #fondo2 {
+    background-image: url(../images/dibujos.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x: 25%;
+  }
+
+  #texto {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #azul {
+    display: block;
+    margin: auto;
+  }
+
+  .txt {
+    display: block;
+    margin: auto;
+  }
+}

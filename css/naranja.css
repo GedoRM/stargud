@@ -1,0 +1,82 @@
+@media screen and (min-width: 780px) {
+  #fondoNaranja {
+    background-image: url("../images/rayonaranja.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: -41%;
+    background-position-x: -20%;
+    height: 900px;
+  }
+
+  #fondoNaranja2 {
+    background-image: url("../images/letraNaranja.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 68%;
+  }
+
+  #tablaNaranja {
+    padding-top: 15%;
+  }
+
+  #contenidoNaranja {
+    background-color: rgb(71, 23, 125);
+    padding: 10px;
+    border-radius: 15px;
+  }
+  #infoNaranja td {
+    border-bottom: 1px solid rgb(71, 23, 125);
+    border-top: transparent;
+  }
+
+  .infoNaranja {
+    font-weight: 1000;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  #infoNaranja {
+    font-weight: 1000;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  #imgNaranja {
+    height: 650px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #imgNaranja {
+    height: 400px;
+    display: block;
+    margin: auto;
+  }
+
+  #tablaNaranja {
+    padding-top: 0;
+  }
+
+  #contenidoNaranja {
+    background-color: rgb(71, 23, 125);
+    padding: 10px;
+    border-radius: 15px;
+  }
+  #infoNaranja td {
+    border-bottom: 1px solid rgb(71, 23, 125);
+    border-top: transparent;
+  }
+
+  .infoNaranja {
+    font-weight: 1000;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  #infoNaranja {
+    font-weight: 1000;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+ 

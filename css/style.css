@@ -1,0 +1,294 @@
+@font-face {
+  font-family: ZingRust;
+  src: url(../fuente/ZingRust.otf);
+}
+
+body{
+  font-family: ZingRust;
+}
+
+#noticias {
+  background-color: rgb(39, 36, 96);
+  color: white;
+}
+
+#informacion {
+  background-color: rgb(71, 23, 125);
+  color: white;
+}
+
+.share a {
+  padding: 12px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  transition: all 700ms ease;
+}
+
+.share a:hover {
+  background: white;
+  color: #4dc247;
+}
+
+.fa-whatsapp {
+  background: #4dc247;
+  border-radius: 100%;
+}
+
+#num {
+  font-size: 40px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(71, 23, 125);
+  font-weight: bold;
+}
+
+
+
+.bx-wrapper{
+  margin-bottom: 0px !important;
+}
+
+/* Pantalla grande */
+@media screen and (min-width: 780px) {
+
+  #foto {
+    filter: grayscale(100%);
+  }
+  
+  #foto:hover {
+    filter: grayscale(0);
+  }
+  
+  #noticias {
+    background-image: url("../images/rayofondo.png");
+    background-repeat: no-repeat;
+    background-position-x: 104%;
+    background-position-y: center;
+    background-size: 44%;
+  }
+
+  #txtS1 {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+
+  #noticias {
+    height: 990px;
+    padding-top: 100px;
+  }
+
+  #limonada {
+    height: 650px;
+  }
+
+  #tablaInfo {
+    line-height: 0px;
+    padding-bottom: 0.1rem;
+  }
+
+  #txtAlmacenamiento {
+    color: black;
+  }
+
+  #contacto {
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #cardForm {
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-color: rgb(39, 36, 96);
+    padding: 20px;
+    background-image: url("../images/fondosecc4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #seccion6 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #txtDir {
+    font-size: 15px;
+  }
+
+  #redes {
+    text-align: left;
+  }
+
+  #yending {
+    width: 40%;
+  }
+
+  #amazon {
+    width: 70% !important;
+  }
+
+  #pronto {
+    width: 20%;
+  }
+
+  .m {
+    background-color: transparent;
+  }
+
+  .share {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 2%;
+    right: 1%;
+    z-index: 1000;
+  }
+
+  #beneficios {
+    background-image: url("../images/beneficios.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: right;
+    background-position-y: center;
+  }
+
+  #endB {
+    height: 250px;
+  }
+
+  #txtB {
+    color: rgb(71, 23, 125);
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+ #dire {
+    font-size: 0.9rem;
+  }
+
+  #sectienda{
+    margin-top: 300px;
+  
+  }
+  
+  #cardDir{
+  background-color:rgba(255,255,255,0.5);
+  }
+}
+
+/* Pantala movil */
+@media screen and (max-width: 780px) {
+
+  #sectienda{
+    margin-top: 100px;
+  
+  }
+
+  #foto {
+    filter: grayscale(100%);
+  }
+  
+  #noticias {
+    padding-top: 50px;
+  }
+
+  #txtS1 {
+    font-size: 11px;
+    margin-top: 35px;
+  }
+
+  #limonada {
+    height: 400px;
+    display: block;
+    margin: auto;
+  }
+
+  #txtAlmacenamiento {
+    text-align: center;
+    color: black;
+  }
+
+  #contacto {
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: no-repeat;
+    height: auto !important;
+  }
+
+  #cardForm {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  #infosec6 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  #txtDir {
+    font-size: 13px;
+  }
+
+  #redes {
+    text-align: center;
+  }
+
+  #yending {
+    width: 30%;
+  }
+
+  #amazon {
+    width: 70%;
+  }
+
+  #pronto{
+    width: 20%;
+  }
+
+  .m {
+    background-color: transparent;
+  }
+
+  .share {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 5%;
+    right: 2%;
+    z-index: 1000;
+  }
+
+  #endB {
+    height: 90px;
+  }
+
+  #txtB {
+    color: rgb(71, 23, 125);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  #cardContacto {
+    margin-top: 3rem !important;
+  }
+
+  #cardDirecciones {
+    margin-bottom: 3rem !important;
+  }
+
+  #sinAzucar{
+    width: 30%;
+  }
+  #rayosec6{
+    width: 50%;
+  }
+  
+    #tienda{
+      height:auto;
+    }
+  
+  #cardDir{
+      background-color:rgba(255,255,255,0.5);
+  }
+
+}
