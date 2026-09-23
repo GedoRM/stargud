@@ -22,64 +22,151 @@
     <link href="images/rayo.png" rel="icon" type="image/ico" />
     <title>Stargud</title>
     <style>
-    #imgAzul:hover {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    }
+        #imgAzul:hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
 
-    #imgAzul {
-        overflow: hidden;
-    }
+        #imgAzul {
+            overflow: hidden;
+        }
 
-    #imgMora:hover {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    }
+        #imgMora:hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
 
-    #imgMora {
-        overflow: hidden;
-    }
+        #imgMora {
+            overflow: hidden;
+        }
 
-    #imgNaranja:hover {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    }
+        #imgNaranja:hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
 
-    #imgNaranja {
-        overflow: hidden;
-    }
+        #imgNaranja {
+            overflow: hidden;
+        }
 
-    .bx-wrapper {
-        margin-bottom: 0px !important;
-    }
+        .bx-wrapper {
+            margin-bottom: 0px !important;
+        }
 
-    .bx-default-pager {
-        display: none;
-    }
-
-    @media screen and (min-width: 780px) {
-        #logoMovil {
+        .bx-default-pager {
             display: none;
         }
-    }
 
-    @media screen and (max-width: 780px) {
-        #logoMovil {
-            display: block;
-
+        @media screen and (min-width: 780px) {
+            #logoMovil {
+                display: none;
+            }
         }
 
-        #logoWeb {
-            display: none;
+        @media screen and (max-width: 780px) {
+            #logoMovil {
+                display: block;
+
+            }
+
+            #logoWeb {
+                display: none;
+            }
         }
-    }
     </style>
 
 </head>
 
 <body>
 
-    <?php include 'header/nav.php' ?>
+    <nav class="navbar navbar-expand-lg navbar-light  scrolling-navbar">
+        <div class="container">
+            <div class="d-block m-auto">
+                <a id="logoMovil" class="nav" href="index.html">
+                    <img src="images/sinAzucar.png" height="40px" width="80px" alt="">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+                aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item mt-3">
+                        <a class="nav-link" href="index.html">
+                            <p>INICIO</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown mt-3">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">NOTICIAS</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">LIGA DE FÚTBOL</a>
+                            <a class="dropdown-item" href="#">INAUGURACIÓN BERIDEMX</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link" href="#beneficios">
+                            <p>BENEFICIOS</p>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link" href="informacion.html">
+                            <p>INFORMACIÓN</p>
+                        </a>
+                    </li>
+                    <li id="logoWeb" class="nav-item mt-2 mr-3 ml-3">
+                        <a class="nav mt-3" href="index.html">
+                            <img src="images/sinAzucar.png" height="40px" width="100px" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link" href="galeria.html">
+                            <p>MEDIA</p>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link" href="#tienda">
+                            <p>TIENDA EN LINEA</p>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link" href="#contacto">
+                            <p>CONTACTO</p>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="https://acortar.link/vMSjo8" class="nav-link waves-effect waves-light" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://acortar.link/OyKNLY" class="nav-link waves-effect waves-light" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://cutt.ly/ERWcE1F" class="nav-link waves-effect waves-light" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://api.whatsapp.com/send?phone=529811306385&text=Quiero información"
+                            class="nav-link waves-effect waves-light" target="_blank">
+                            <i class="m fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="share">
         <a href="#" class="nav-link waves-effect waves-light  fab fa-whatsapp fa-2x" target=»_blank></a>
@@ -313,16 +400,147 @@
         <div id="saboresStargud" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active wow fadeInUp">
-                    <?php include 'productos/limon.php'; ?>
+                    <section id="fondoLimon">
+
+                        <br><br><br>
+                        <div id="fondoLimon2">
+
+                            <div class="container">
+
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-md-4 wow fadeInUp">
+
+                                    </div>
+                                    <div class="col-md-4 wow fadeInUp">
+                                        <p><img alt="Cambiar imagen" class="img-fluid" id="limonada"
+                                                onmouseout="this.src='images/verde.png';"
+                                                onmouseover="this.src='images/botella_liquido.png';"
+                                                src="images/verde.png" /></p>
+
+                                    </div>
+                                    <div class="col-md-4 pt-5 wow fadeInUp">
+                                        <br><br>
+                                        <table id="infoMora" class="table" style="width:100%; ">
+
+                                        </table>
+                                        <div class="mt-5 pt-5">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
                 <div class="carousel-item">
-                    <?php include 'productos/mora.php'; ?>
+                    <section id="fondoMora">
+
+                        <br><br><br>
+                        <div class="container " id="fondoMora2">
+
+                            <br><br>
+                            <div class="row">
+                                <div class="col-md-4">
+
+                                    <div class="mt-5 pt-5">
+
+                                    </div>
+                                    <div class="d-block m-auto">
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 pt-5">
+                                    <br><br>
+                                    <table id="infoMora" class="table m-auto" style="width:100%; ">
+
+                                    </table>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="ïmg-fluid" src="images/mora.png" id="imgMora">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
                 <div class="carousel-item">
-                    <?php include 'productos/azul.php'; ?>
+                    <section id="fondoAzul">
+
+                        <br><br><br>
+                        <div id="fondoAzul2">
+                            <div id="fondoAzul3">
+
+
+                                <div class="container">
+
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-4 wow fadeInUp">
+                                            <img class="ïmg-fluid" src="images/azul.png" id="limonada">
+                                        </div>
+                                        <div class="col-md-4">
+
+
+                                        </div>
+
+                                        <div class="col-md-4 pt-5">
+                                            <br><br>
+                                            <table id="infoMora" class="table" style="width:100%; ">
+
+                                            </table>
+                                            <div class="mt-5 pt-5">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
                 <div class="carousel-item">
-                    <?php include 'productos/naranja.php'; ?>
+                    <section id="fondoNaranja">
+
+                        <br><br><br>
+                        <div>
+
+                            <div class="container">
+                                <div id="fondoNaranja2">
+                                    <br><br>
+                                    <div class="row">
+
+
+                                        <div class="col-md-4" id="">
+                                            <br><br>
+                                            <table id="" class="table" style="width:100%;">
+
+                                            </table>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="ïmg-fluid" src="images/naranja.png" id="imgNaranja">
+                                        </div>
+
+
+
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-3">
+                                            <div id="">
+
+                                            </div>
+
+                                            <div class="mt-5 pt-5">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
             <li class="carousel-control-prev" href="#saboresStargud" role="button" data-slide="prev">
@@ -366,7 +584,7 @@
                         <div class="card-body ">
 
                             <p class="card-text">
-                            <form id="formulario" method="POST" action="mail.php">
+                            <form id="formulario" method="POST" action="mail.html">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class=" mb-4">
@@ -540,7 +758,87 @@
             target=»_blank></a>
     </div>
 
-    <?php include 'footer/footer.php' ?>
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-1 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="index.html">INICIO</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-1 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#">NOTICIAS</a>
+                    </h6>
+                </div>
+
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-1 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#beneficios">BENEFICIOS</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-1 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="informacion.html">INFORMACIÓN</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-1 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="media.html">MEDIA</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-1 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#tienda">TIENDA EN LÍNEA</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-1 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#contacto">CONTACTO</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="https://mdbootstrap.com/"> stargud.mx</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -550,58 +848,58 @@
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js">
-    </script>
+        </script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js">
     </script>
     <!--<script src="js/menu.js"></script>-->
     <script type="text/javascript" src="js/lightbox.js"></script>
     <script>
-    $(function() {
-        new WOW().init();
-    });
+        $(function () {
+            new WOW().init();
+        });
     </script>
 
     <script>
-    $(document).ready(function() {
+        $(document).ready(function () {
 
-        $("#formulario").bind("submit", function() {
-            $.ajax({
-                type: $(this).attr("method"),
-                url: $(this).attr("action"),
-                data: $(this).serialize(),
-                success: function(data) {
-                    $("#msj").html(data);
+            $("#formulario").bind("submit", function () {
+                $.ajax({
+                    type: $(this).attr("method"),
+                    url: $(this).attr("action"),
+                    data: $(this).serialize(),
+                    success: function (data) {
+                        $("#msj").html(data);
 
-                    $("#nombre").val('');
-                    $("#email").val('');
-                    $("#tel").val('');
-                    $("#ayuda").val('');
-                    $("#mensaje").val('');
+                        $("#nombre").val('');
+                        $("#email").val('');
+                        $("#tel").val('');
+                        $("#ayuda").val('');
+                        $("#mensaje").val('');
+                    }
+                });;
+                return false;
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('a[href^="#"]').click(function () {
+                var destino = $(this.hash);
+                if (destino.length == 0) {
+                    destino = $('a[name="' + this.hash.substr(1) + '"]');
                 }
-            });;
-            return false;
+                if (destino.length == 0) {
+                    destino = $('html');
+                }
+                $('html, body').animate({
+                    scrollTop: destino.offset().top
+                }, 500);
+                return false;
+            });
         });
-    });
-    </script>
-
-
-    <script>
-    $(document).ready(function() {
-        $('a[href^="#"]').click(function() {
-            var destino = $(this.hash);
-            if (destino.length == 0) {
-                destino = $('a[name="' + this.hash.substr(1) + '"]');
-            }
-            if (destino.length == 0) {
-                destino = $('html');
-            }
-            $('html, body').animate({
-                scrollTop: destino.offset().top
-            }, 500);
-            return false;
-        });
-    });
     </script>
 </body>
 
